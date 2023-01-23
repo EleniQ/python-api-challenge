@@ -28,7 +28,8 @@ Randomly select at least 500 unique (non-repeated) cities based on latitude and 
 Perform a weather check on each of the cities using a series of successive API calls.
 Include a print log of each city as it's being processed, with the city number and city name.
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
-Part 2: VacationPy
+
+### Part 2: VacationPy
 Now, let's use your skills working with weather data to plan future vacations. Use Jupyter-gmaps and the Google Places API for this part of the assignment.
 
 Note: Remember that any API usage beyond the $200 credit will be charged to your personal account. You can set quotas and limits to your daily requests to be sure you can't be charged. Check out Google Maps Platform Billing and Manage your cost of use for more information.
@@ -46,12 +47,3 @@ Note: Feel free to adjust your specifications, but make sure to limit the number
 * Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
 * Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country, as in the following image:
 
-
-As final considerations:
-
-You must complete your analysis using a Jupyter notebook.
-You must use the Matplotlib or Pandas plotting libraries.
-For Part 1, you must include a written description of three observable trends based on the data.
-For Part 2, you must take a screenshot of the heatmap that you create and include it in your submission.
-Your plots must include labeling aspects like plot title (with date of analysis) and axis labels.
-For max intensity in the heatmap, try setting it to the highest humidity found in the dataset.
